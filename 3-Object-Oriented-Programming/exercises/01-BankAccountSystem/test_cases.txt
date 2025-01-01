@@ -1,0 +1,48 @@
+Test Case 1: Account Creation
+Input:
+- Create SavingsAccount
+  - Holder: "John Doe"
+  - Initial Deposit: $1000
+  - Interest Rate: 2.5%
+Expected Output:
+- Account created successfully
+- Account number generated
+- Initial balance: $1000.00
+
+Test Case 2: Deposits
+Input:
+- Deposit $500
+Expected Output:
+- New balance: $1500.00
+- Transaction recorded
+- Transaction ID generated
+
+Test Case 3: Withdrawals
+Input:
+- Withdraw $200
+Expected Output:
+- New balance: $1300.00
+- Transaction recorded
+- Withdrawal count incremented
+
+Test Case 4: Withdrawal Limits
+Input:
+- Make 4 withdrawals in one month
+Expected Output:
+- First 3 withdrawals: Successful
+- 4th withdrawal: Rejected (limit exceeded)
+
+Test Case 5: Minimum Balance
+Input:
+- Attempt to withdraw below minimum balance
+Expected Output:
+- Transaction rejected
+- Error message displayed
+- Balance unchanged
+
+Test Case 6: Interest Calculation
+Input:
+- Calculate monthly interest
+Expected Output:
+- Interest added to balance
+- Transaction recorded 

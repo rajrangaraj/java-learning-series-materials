@@ -1,0 +1,51 @@
+Test Case 1: Book Creation
+Input:
+- Create Book
+  - Title: "Java Programming"
+  - Author: "John Smith"
+  - ISBN: "123-456-789"
+Expected Output:
+- Book created
+- Item ID generated
+- Available status: true
+
+Test Case 2: Member Borrowing
+Input:
+- Member borrows book
+  - Member ID: "M001"
+  - Book ID: "B001"
+Expected Output:
+- Book status updated
+- Borrow record created
+- Due date set
+
+Test Case 3: Late Returns
+Input:
+- Return book 5 days late
+Expected Output:
+- Late fee calculated ($1.25)
+- Fine added to member account
+- Book status updated
+
+Test Case 4: Multiple Borrows
+Input:
+- Member attempts to borrow 4 books
+Expected Output:
+- First 3: Successful
+- 4th: Rejected (limit reached)
+
+Test Case 5: Fine Payment
+Input:
+- Pay fine of $1.25
+Expected Output:
+- Fine balance updated
+- Payment recorded
+- Borrowing privileges restored
+
+Test Case 6: Book Return
+Input:
+- Return book on time
+Expected Output:
+- Book status updated
+- No fine assessed
+- Borrow record updated 

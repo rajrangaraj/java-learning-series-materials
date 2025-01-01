@@ -1,0 +1,41 @@
+Test Case 1: Circle Calculations
+Input:
+- Create Circle
+  - Radius: 5.0
+  - Color: "Red"
+Expected Output:
+- Area: 78.54 square units
+- Perimeter: 31.42 units
+
+Test Case 2: Rectangle Calculations
+Input:
+- Create Rectangle
+  - Length: 4.0
+  - Width: 6.0
+  - Color: "Blue"
+Expected Output:
+- Area: 24.0 square units
+- Perimeter: 20.0 units
+
+Test Case 3: Shape Comparison
+Input:
+- Circle (radius 5.0)
+- Rectangle (4.0 x 6.0)
+Expected Output:
+- Circle area > Rectangle area
+- Correct sorting order
+
+Test Case 4: Invalid Dimensions
+Input:
+- Circle (radius -1.0)
+- Rectangle (length 0.0, width 5.0)
+Expected Output:
+- Validation errors
+- Exception messages
+
+Test Case 5: Shape Collection
+Input:
+- Multiple shapes of different sizes
+Expected Output:
+- Correct sorting by area
+- Largest/smallest identification 

@@ -1,0 +1,48 @@
+Test Case 1:
+Input:
+number1 = 10
+number2 = 5
+
+Expected Output:
+Addition: 10 + 5 = 15
+Subtraction: 10 - 5 = 5
+Multiplication: 10 * 5 = 50
+Division: 10 / 5 = 2
+
+-------------------
+Test Case 2:
+Input:
+number1 = 7.5
+number2 = 2.5
+
+Expected Output:
+Addition: 7.5 + 2.5 = 10.0
+Subtraction: 7.5 - 2.5 = 5.0
+Multiplication: 7.5 * 2.5 = 18.75
+Division: 7.5 / 2.5 = 3.0
+
+-------------------
+Test Case 3:
+Input:
+number1 = 15
+number2 = 0
+
+Expected Output:
+Addition: 15 + 0 = 15
+Subtraction: 15 - 0 = 15
+Multiplication: 15 * 0 = 0
+Division: Cannot divide by zero
+
+-------------------
+Test Case 4:
+Input:
+number1 = -10
+number2 = 3
+
+Expected Output:
+Addition: -10 + 3 = -7
+Subtraction: -10 - 3 = -13
+Multiplication: -10 * 3 = -30
+Division: -10 / 3 = -3.333333
+
+Note: For division results, rounding to 6 decimal places is acceptable. 

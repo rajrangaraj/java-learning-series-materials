@@ -1,0 +1,36 @@
+Test Case 1:
+Input:
+name = "John Doe"
+age = 25
+currentYear = 2024
+
+Expected Output:
+My name is John Doe
+I am 25 years old
+I was born in 1999
+
+-------------------
+Test Case 2:
+Input:
+name = "Alice Smith"
+age = 30
+currentYear = 2024
+
+Expected Output:
+My name is Alice Smith
+I am 30 years old
+I was born in 1994
+
+-------------------
+Test Case 3:
+Input:
+name = "Bob Johnson"
+age = 18
+currentYear = 2024
+
+Expected Output:
+My name is Bob Johnson
+I am 18 years old
+I was born in 2006
+
+Note: The birth year calculation assumes the person has already had their birthday this year. 
