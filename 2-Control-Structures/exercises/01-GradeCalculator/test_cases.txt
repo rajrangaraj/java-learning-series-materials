@@ -1,1 +1,48 @@
- 
+Test Case 1: Basic Grades
+Input: 95
+Expected Output: Score: 95 | Grade: A | Comment: Excellent!
+
+Input: 83
+Expected Output: Score: 83 | Grade: B- | Comment: Good job!
+
+Input: 77
+Expected Output: Score: 77 | Grade: C+ | Comment: Satisfactory
+
+Input: 62
+Expected Output: Score: 62 | Grade: D- | Comment: Needs improvement
+
+Input: 55
+Expected Output: Score: 55 | Grade: F | Comment: Failed
+
+Test Case 2: Edge Cases
+Input: 100
+Expected Output: Score: 100 | Grade: A+ | Comment: Excellent!
+
+Input: 0
+Expected Output: Score: 0 | Grade: F | Comment: Failed
+
+Test Case 3: Invalid Scores
+Input: -5
+Expected Output: Invalid Score
+
+Input: 105
+Expected Output: Invalid Score
+
+Test Case 4: Grade Boundaries
+Input: 90
+Expected Output: Score: 90 | Grade: A- | Comment: Excellent!
+
+Input: 89
+Expected Output: Score: 89 | Grade: B+ | Comment: Good job!
+
+Input: 80
+Expected Output: Score: 80 | Grade: B- | Comment: Good job!
+
+Input: 70
+Expected Output: Score: 70 | Grade: C- | Comment: Satisfactory
+
+Note: Plus/Minus Rules
+- Scores ending in 7-9: +
+- Scores ending in 4-6: no modifier
+- Scores ending in 0-3: -
+- Exception: 100 is A+, F has no +/- 

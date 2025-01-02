@@ -1,0 +1,28 @@
+# Logging configuration for Spring Boot
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    org.hibernate: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    com.example: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/application.log
+    max-size: 10MB
+    max-history: 30
+
+# Spring specific logging properties
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        session_factory:
+          interceptor: com.example.HibernateLoggingInterceptor
+        generate_statistics: true
+  mvc:
+    log-request-details: true 

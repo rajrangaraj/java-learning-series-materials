@@ -1,1 +1,66 @@
- 
+Test Case 1: Successful Game
+Random Number: 42
+Input Sequence:
+50 (Too high!)
+25 (Too low!)
+37 (Too low!)
+45 (Too high!)
+42 (Correct!)
+Expected Output:
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100...
+Enter your guess: 50
+Too high! Try again.
+Enter your guess: 25
+Too low! Try again.
+Enter your guess: 37
+Too low! Try again.
+Enter your guess: 45
+Too high! Try again.
+Enter your guess: 42
+Correct! You got it in 5 attempts!
+Play again? (y/n):
+
+Test Case 2: Invalid Inputs
+Random Number: 75
+Input Sequence:
+abc (Invalid input!)
+-5 (Invalid range!)
+150 (Invalid range!)
+75 (Correct!)
+Expected Output:
+Enter your guess: abc
+Please enter a valid number!
+Enter your guess: -5
+Please enter a number between 1 and 100!
+Enter your guess: 150
+Please enter a number between 1 and 100!
+Enter your guess: 75
+Correct! You got it in 1 attempt!
+
+Test Case 3: Quick Win
+Random Number: 50
+Input Sequence:
+50 (Correct!)
+Expected Output:
+Correct! You got it in 1 attempt!
+Amazing! First try!
+
+Test Case 4: Game Loop
+Sequence:
+1. Complete game
+2. Choose to play again (y)
+3. Complete second game
+4. Choose to quit (n)
+Expected Output:
+... (first game)
+Play again? (y/n): y
+... (second game)
+Play again? (y/n): n
+Thanks for playing! You played 2 games.
+
+Note: For random number testing:
+1. Use a fixed seed for consistent testing
+2. Test boundary values (1 and 100)
+3. Verify attempt counter
+4. Check play again functionality 
